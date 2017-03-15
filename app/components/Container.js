@@ -5,7 +5,7 @@ var Sobre = require('./Sobre');
 var Container = React.createClass({
 	render: function() {
 		return (
-			<div className="container">
+			<div>
 				<Header />
 				<Sobre />
 			</div>

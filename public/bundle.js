@@ -9450,7 +9450,7 @@ var Container = React.createClass({
 	render: function () {
 		return React.createElement(
 			'div',
-			{ className: 'container' },
+			null,
 			React.createElement(Header, null),
 			React.createElement(Sobre, null)
 		);
@@ -21725,78 +21725,90 @@ var Header = React.createClass({
 			null,
 			React.createElement("div", { className: "logo" }),
 			React.createElement(
-				"nav",
-				null,
+				"div",
+				{ className: "links" },
 				React.createElement(
-					"ul",
+					"nav",
 					null,
 					React.createElement(
-						"li",
+						"ul",
 						null,
 						React.createElement(
-							"a",
-							{ href: "#" },
-							"Home"
+							"li",
+							null,
+							React.createElement(
+								"a",
+								{ href: "#" },
+								"Home"
+							)
+						),
+						React.createElement(
+							"li",
+							null,
+							React.createElement(
+								"a",
+								{ href: "#" },
+								"Sobre"
+							)
+						),
+						React.createElement(
+							"li",
+							null,
+							React.createElement(
+								"a",
+								{ href: "#" },
+								"Portf\xF3lio"
+							)
+						),
+						React.createElement(
+							"li",
+							null,
+							React.createElement(
+								"a",
+								{ href: "#" },
+								"Depoimentos"
+							)
+						),
+						React.createElement(
+							"li",
+							null,
+							React.createElement(
+								"a",
+								{ href: "#" },
+								"Contato"
+							)
 						)
 					),
 					React.createElement(
-						"li",
-						null,
+						"ul",
+						{ className: "social" },
 						React.createElement(
-							"a",
-							{ href: "#" },
-							"Sobre"
-						)
-					),
-					React.createElement(
-						"li",
-						null,
+							"li",
+							null,
+							React.createElement(
+								"a",
+								{ href: "" },
+								React.createElement("i", { className: "fa fa-facebook" })
+							)
+						),
 						React.createElement(
-							"a",
-							{ href: "#" },
-							"Portf\xF3lio"
-						)
-					),
-					React.createElement(
-						"li",
-						null,
+							"li",
+							null,
+							React.createElement(
+								"a",
+								{ href: "" },
+								React.createElement("i", { className: "fa fa-linkedin" })
+							)
+						),
 						React.createElement(
-							"a",
-							{ href: "#" },
-							"Depoimentos"
+							"li",
+							null,
+							React.createElement(
+								"a",
+								{ href: "" },
+								React.createElement("i", { className: "fa fa-github-alt" })
+							)
 						)
-					),
-					React.createElement(
-						"li",
-						null,
-						React.createElement(
-							"a",
-							{ href: "#" },
-							"Contato"
-						)
-					)
-				)
-			),
-			React.createElement(
-				"ul",
-				{ className: "social" },
-				React.createElement(
-					"li",
-					null,
-					React.createElement(
-						"a",
-						{ href: "" },
-						React.createElement("i", { className: "fa fa-facebook" })
-					),
-					React.createElement(
-						"a",
-						{ href: "" },
-						React.createElement("i", { className: "fa fa-linkedin" })
-					),
-					React.createElement(
-						"a",
-						{ href: "" },
-						React.createElement("i", { className: "fa fa-github-alt" })
 					)
 				)
 			),
@@ -21828,6 +21840,30 @@ var Sobre = React.createClass({
 				"h1",
 				null,
 				"Sobre"
+			),
+			React.createElement(
+				"div",
+				{ className: "itens" },
+				React.createElement(
+					"div",
+					{ className: "imagem" },
+					React.createElement("img", { src: "", alt: "" })
+				),
+				React.createElement(
+					"div",
+					{ className: "lapis" },
+					React.createElement("i", { className: "fa fa-pencil" })
+				),
+				React.createElement(
+					"div",
+					{ className: "codigo" },
+					React.createElement("i", { className: "fa fa-code" })
+				),
+				React.createElement(
+					"div",
+					{ className: "compartilhar" },
+					React.createElement("i", { className: "fa fa-share-alt" })
+				)
 			)
 		);
 	}

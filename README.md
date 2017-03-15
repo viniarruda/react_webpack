@@ -30,3 +30,7 @@ Gulp -> Sass
 7. live-server (Roda servidor local)
 8. npm install -g bower
 9. bower install font-awesome bootstrap-sass --save
+
+
+#Obs:
+Deixar o node_modules no .gitignore
