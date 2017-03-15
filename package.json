@@ -1,0 +1,31 @@
+{
+  "name": "react_webpack",
+  "version": "1.0.0",
+  "description": "# Requisitos \t- Webpack \t- React \t\t- axios \t- Babel \t- Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniarruda/react_webpack.git"
+  },
+  "author": "Vinicius Arruda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniarruda/react_webpack/issues"
+  },
+  "homepage": "https://github.com/viniarruda/react_webpack#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-react": "^6.23.0",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-watch": "^4.3.11",
+    "webpack": "^2.2.1"
+  }
+}
